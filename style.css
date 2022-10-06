@@ -1,0 +1,70 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;700&display=swap');
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+
+#container {
+    position:absolute;
+    top: 0; right: 0; bottom:0; left: 0;
+    /* background-color:red; */
+    display:flex;
+    flex-direction:row;
+    background-image: url("https://portal.themailshark.net/images/page.jpg")
+}
+
+#sidenav {
+    width:75px;
+    height:100%;
+    background-color: rgba(53, 75, 132);
+}
+
+#body {
+    display:flex;
+    flex-direction:column;
+    flex:1;
+}
+
+#header {
+
+    height:60px;
+}
+
+#main {
+    display:flex;
+    flex-direction:column;
+    margin:0px 20px 20px 20px;
+    padding:0px 20px;
+    flex:1;
+    background-color:white;
+    border-radius:12px;
+    box-shadow:rgba(22, 30, 117, 0.4) 0px 0px 20px 0px;
+}
+
+hr {
+    border:0;
+    border-bottom: 0.5px solid #f7f7f7;
+}
+
+#main-content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    flex:1;
+}
+
+#logo {
+    max-width:300px;
+}
+
+#buttons {
+    background-color:beige;
+    width:100%;
+    flex:1;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.button {
+}
