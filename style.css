@@ -15,6 +15,9 @@ body {
   display: flex;
   flex-direction: row;
   background-image: url("https://portal.themailshark.net/images/page.jpg");
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: left top;
 }
 
 #sidenav {
