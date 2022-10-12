@@ -1,36 +1,90 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="/style.css" />
-    <title>Blank Portal</title>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="/style.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+    integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <title>Example Dashboard</title>
 </head>
+
 <body>
-    <div id="container">
-        <div id="sidenav"></div>
-        <div id="body">
-            <div id="header">
-            </div>
-
-            <div id="main">
-                 
-                <h3>Welcome back, Todd!</h2>
-                <hr />
-                <div id="main-content">
-                    <img id="logo" src="https://portal.themailshark.net/artworkF/Portal_Client_Logo_12.png" />
-                    <div id="buttons">
-                        <div class="button"></div>
-                        <div class="button"></div>
-                        <div class="button"></div>
-                        <div class="button"></div>
-                    </div>
-                </div>
-
-
-            </div>
-        </div>
+  <div id="container">
+    <div id="sidenav">
+      <div id="sidenav-title">
+        <div id="store-icon"></div>
+      </div>
+      <div class="sidenav-button">
+        <i class="fa-solid fa-gauge-high fa-xl"></i>
+        <div class="sidenav-title">Dashboard</div>
+      </div>
+      <div class="sidenav-button">
+        <i class="fa-solid fa-envelopes-bulk fa-xl"></i>
+        <div class="sidenav-title">Place an Order</div>
+      </div>
+      <div class="sidenav-button">
+        <i class="fa-solid fa-chart-simple fa-xl"></i>
+        <div class="sidenav-title">Reporting</div>
+      </div>
+      <div class="sidenav-button">
+        <i class="fa-solid fa-gear fa-xl"></i>
+        <div class="sidenav-title">Manage Account</div>
+      </div>
+      <div class="sidenav-button">
+        <i class="fa-solid fa-cart-shopping fa-xl"></i>
+        <div class="sidenav-title">Shopping Cart</div>
+      </div>
+      <div class="sidenav-button">
+        <i class="fa-solid fa-question fa-xl"></i>
+        <div class="sidenav-title">Help</div>
+      </div>
     </div>
+    <div id="body">
+
+
+      <div id="header">
+      </div>
+
+      <div id="main">
+
+        <h3>Welcome back, Todd!</h2>
+          <hr />
+          <div id="main-content">
+            <img id="logo" src="https://portal.themailshark.net/artworkF/Portal_Client_Logo_12.png" />
+            <div id="buttons">
+              <div class="button">
+                <i class="fa-solid fa-envelopes-bulk fa-2xl"></i>
+                <p class="btn-name">Place an Order</p>
+              </div>
+              <div class="button">
+                <i class="fa-solid fa-chart-simple fa-2xl"></i>
+                <p class="btn-name">Reporting</p>
+              </div>
+              <div class="button">
+                <i class="fa-solid fa-gear fa-2xl"></i>
+                <p class="btn-name">Manage Account</p>
+              </div>
+              <div class="button">
+                <i class="fa-solid fa-cart-shopping fa-2xl"></i>
+                <p class="btn-name">Shopping Cart</p>
+              </div>
+            </div>
+          </div>
+
+
+      </div>
+    </div>
+  </div>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.1/jquery.min.js"></script>
+  <script src="app.js"></script>
+
+
 </body>
+
 </html>
